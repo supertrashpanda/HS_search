@@ -1,0 +1,13 @@
+name: HS_search
+title: HS_search
+username:
+account: thepublicgood
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6493940
+bundleId: 6043202
+url: https://thepublicgood.shinyapps.io/HS_search/
+when: 1656201348.06595
+lastSyncTime: 1656201348.06597
+asMultiple: FALSE
+asStatic: FALSE

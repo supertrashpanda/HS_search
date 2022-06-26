@@ -1,0 +1,35 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-230088806-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+
+  
+
+  $(document).on('change', 'select#grade', function(e) {
+     gtag('event', 'change', {'event_category' : 'grade in sep 2022',
+    'event_label' : document.querySelector('select#grade').value
+    });
+  });
+
+
+    $(document).on('change', 'select#borough', function(e) {
+     gtag('event', 'change', {'event_category' : 'borough the user lives in',
+    'event_label' : document.querySelector('select#borough').value
+    });
+  });
+
+      $(document).on('change', 'input#userName', function(e) {
+     gtag('event', 'change', {'event_category' : 'username',
+    'event_label' : document.querySelector('input#userName').value
+    });
+  });
+
+
+
+
+
+  gtag('config', 'UA-230088806-1');
+</script>
